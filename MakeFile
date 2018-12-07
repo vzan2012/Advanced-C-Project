@@ -1,0 +1,11 @@
+all: France
+France: main.o France.o status.o
+	gcc main.o France.o status.o -o France -lm
+main.o: main.c
+	gcc -c main.c -w
+France.o: France.c
+	gcc -c France.c -w
+status.o: status.c
+	gcc -c status.c -w
+clean:
+	rm -rf *o France

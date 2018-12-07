@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1543773146 source:g:\work-files\c-programs\project\shortest-path-project\shortest-path-project\francetest.c
+	<stdio.h>
+	"France.h"
+
+1544128369 g:\work-files\c-programs\project\shortest-path-project\shortest-path-project\france.h
+	<stdlib.h>
+	"status.h"
+
+1544127034 g:\work-files\c-programs\project\shortest-path-project\shortest-path-project\status.h
+
+1544136398 source:g:\work-files\c-programs\project\shortest-path-project\shortest-path-project\france.c
+	"France.h"
+	<stdio.h>
+	<math.h>
+	<string.h>
+
+1544137117 source:g:\work-files\c-programs\project\shortest-path-project\shortest-path-project\main.c
+	<stdio.h>
+	"France.h"
+
+1544129617 source:g:\work-files\c-programs\project\shortest-path-project\shortest-path-project\status.c
+	"status.h"
+
